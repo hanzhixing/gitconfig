@@ -1,1 +1,1 @@
-https://github.com/hanzhixing/gitconfig/blob/250d5665aae24d9d4de3192818b4bceb8a278445/gitconfig#L1-L31
+https://github.com/hanzhixing/gitconfig/blob/190fcdcf36963a39b56c13460d49c35357f6efcb/gitconfig
