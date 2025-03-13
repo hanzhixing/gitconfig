@@ -13,19 +13,11 @@
     date=iso-strict
 [alias]
     log1 = log \
-        --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%ad [%cd]%C(reset) %C(bold green)(%ar)%C(reset) %C(bold yellow)%d%C(reset) %C(dim white)- %an%C(reset)%n          %C(white)%s%C(reset)' \
-        --all --graph --date=iso-strict
-    log2 = log \
         --format=format:'%C(auto)%h%d %s %C(dim white) - %ar - %aN%Creset' \
         --all --graph
-    # 变更统计
-    log3 = log --numstat --format=tformat:
-    # 显示单个文件完整的历史变更内容需要接 -- <文件名>
-    log4 = log \
+    log2 = log \
         --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%ad [%cd]%C(reset) %C(bold green)(%ar)%C(reset) %C(bold yellow)%d%C(reset) %C(dim white)- %an%C(reset)%n          %C(white)%s%C(reset)' \
-        --date=iso-strict -p -M --stat \
-        --follow
-    # git log --numstat --format='%H' --author="Your Name" commit1..commit2 | awk 'NF==3 {plus+=$1; minus+=$2} END {printf("+%d, -%d\n", plus, minus)}'
+        --all --graph --date=iso-strict
 [user]
     email = zhixing.han.0409@gmail.com
     name = Zhixing Han
