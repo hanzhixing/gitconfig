@@ -3,6 +3,7 @@
     autocrlf = false
     safecrlf = true
     fileMode = false
+	quotepath = false
 [rerere]
     enabled = true
 [init]
